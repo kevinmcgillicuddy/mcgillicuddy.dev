@@ -1,0 +1,28 @@
+.mainimage {
+    border-radius: 70%;
+    width: 25%;
+    height: 25%;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+}
+
+.cardDetailImage {
+    height: auto;
+    width: auto;
+    max-width: 42px;
+    max-height: 42px;
+}
+
+.alignImage {
+    text-align: center
+}
+
+body {
+    background-image: url('img/bg4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
