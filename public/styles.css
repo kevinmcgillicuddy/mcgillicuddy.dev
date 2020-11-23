@@ -1,7 +1,7 @@
 .mainimage {
     border-radius: 70%;
-    width: 35%;
-    height: 35%;
+    width: 25;
+    height: 25%;
     object-fit: contain;
     display: block;
     margin-left: auto;
@@ -9,20 +9,16 @@
     padding-top: 2px;
 }
 
-.cardDetailImage {
-    height: auto;
-    width: auto;
-    max-width: 50px;
-    max-height: 50px;
-}
-
 .alignImage {
     text-align: center
 }
 
 body {
-    background-image: url('img/2.jpg');
+    background-image: url('img/wp.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+  #icons{
+    text-align: center;
+  }
