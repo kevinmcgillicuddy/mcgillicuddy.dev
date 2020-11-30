@@ -10,7 +10,7 @@
 }
 
 .alignImage {
-    text-align: center
+     text-align: center;
 }
 
 body {
@@ -21,4 +21,19 @@ body {
 }
   #icons{
     text-align: center;
+  }
+
+.wrapper{
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto; 
+  padding:25px
+  }
+
+  .contents{
+    display: flex;
+    justify-content: center;
+  }
+  .box{
+    padding: 5px;
   }

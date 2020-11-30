@@ -14,47 +14,37 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
-  <div class="row"></div>
-  <div class="row">
-    <div class="col s2 m2 l4 "></div>
-    <div class="col s8 m8 l4 ">
-      <div class="card">
-        <img class="mainimage" src="img/0.jpg">
-        <div class="card-content">
-          <div class="divider"></div>
-          <br>
-          <p class="alignImage flow-text"><b>Kevin McGillicuddy</b></p>
-          <p class="alignImage flow-text">IT Professional</p>
-        </div>
-        <div class="card-action" id="icons">
-          <a href="https://github.com/kevinmcgillicuddy"><img src="img/gh2.png"></a>
-          <a href="mailto: kevin.mcgillicuddy@outlook.com"><img src="img/email2.png">
-            <a href="https://www.linkedin.com/in/kevin-mcgillicuddy-b4669764/"><img src="img/link2.png"></a>
-        </div>
+  <div class="wrapper">
+    <div class="card">
+      <img class="mainimage" src="img/0.jpg">
+      <div class="card-content">
+        <div class="divider"></div>
+        <br>
+        <p class="alignImage flow-text"><b>Kevin McGillicuddy</b></p>
+        <p class="alignImage flow-text">IT Professional</p>
       </div>
+      <div class="divider"></div>
+      <div class="card-content contents">
+      <div class="box "><a href="https://github.com/kevinmcgillicuddy"><img src="img/gh2.png"></a></div>
+      <div class="box "><a href="mailto: kevin.mcgillicuddy@outlook.com"><img src="img/email2.png"></div>
+      <div class="box "><a href="https://www.linkedin.com/in/kevin-mcgillicuddy-b4669764/"><img src="img/link2.png"></a></div>
     </div>
-    <div class="col s2 m2 l4 "></div>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
-
-    <script>
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      var firebaseConfig = {
-        apiKey: "AIzaSyAQAEZO80HNrH4e6EAIXkx8bRp4iK3KoXE",
-        authDomain: "mcgillicuddydev.firebaseapp.com",
-        databaseURL: "https://mcgillicuddydev.firebaseio.com",
-        projectId: "mcgillicuddydev",
-        storageBucket: "mcgillicuddydev.appspot.com",
-        messagingSenderId: "716972405388",
-        appId: "1:716972405388:web:dba4bfc97a24dbadd581a9",
-        measurementId: "G-ET51RL88KH"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-    </script>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+   <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyAQAEZO80HNrH4e6EAIXkx8bRp4iK3KoXE",
+      authDomain: "mcgillicuddydev.firebaseapp.com",
+      databaseURL: "https://mcgillicuddydev.firebaseio.com",
+      projectId: "mcgillicuddydev",
+      storageBucket: "mcgillicuddydev.appspot.com",
+      messagingSenderId: "716972405388",
+      appId: "1:716972405388:web:dba4bfc97a24dbadd581a9",
+      measurementId: "G-ET51RL88KH"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
-
 </html>
