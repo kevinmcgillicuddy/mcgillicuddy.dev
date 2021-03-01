@@ -1,15 +1,31 @@
-.mainimage {
+.mainImage {
     border-radius: 70%;
-    width: 25;
-    height: 25%;
+    width: 30%;
+    height: 30%;
     object-fit: contain;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2px;
+    padding-top: 10px;
+}
+.logoImage{
+  width: 50px; 
+  height: 50px;
+ 
 }
 
-.alignImage {
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  .logoImage{
+    width: 40px; 
+    height: 40px;
+   
+  }
+}
+
+.align {
      text-align: center;
 }
 
@@ -19,9 +35,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-  #icons{
-    text-align: center;
-  }
 
 .wrapper{
   width: 100%;
