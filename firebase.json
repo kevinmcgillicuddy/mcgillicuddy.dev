@@ -1,17 +1,21 @@
 {
   "hosting": {
-    "source": "**/*.@(jpg|jpeg|gif|png)",
-    "headers": [
-      {
-        "key": "Cache-Control",
-        "value": "max-age=86400"
-      }
-    ],
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|gif|png)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=86400"
+          }
+        ]
+      }
     ]
   }
 }
