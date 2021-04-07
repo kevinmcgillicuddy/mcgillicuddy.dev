@@ -12,7 +12,7 @@
         "headers": [
           {
             "key": "Cache-Control",
-            "value": "max-age=86400"
+            "value": "public, max-age=86400, s-maxage=86400"
           },
           {
             "key": "Content-Security-Policy",
