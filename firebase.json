@@ -20,7 +20,7 @@
           },
           {
             "key": "Content-Type",
-            "value":"image/svg+xml"
+            "value":"image/svg+xml/css"
           },
           {
             "key": "Content-Security-Policy",
