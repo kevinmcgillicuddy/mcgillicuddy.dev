@@ -48,5 +48,6 @@ body {
     justify-content: center;
   }
   .box{
-    padding: 5px;
+    padding: 3px;
+    width: 76px;
   }
