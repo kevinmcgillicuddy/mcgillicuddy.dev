@@ -31,10 +31,45 @@ and (-webkit-min-device-pixel-ratio: 3) {
 
 body {
     background-image: url('img/wp.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      -webkit-animation: slidein 30s;
+      animation: slidein 30s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+    
+    @-webkit-keyframes slidein {
+      from {
+        background-position: top;
+        background-size: 3000px;
+      }
+    
+      to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+      }
+    }
+    
+    @keyframes slidein {
+      from {
+        background-position: top;
+        background-size: 3000px;
+      }
+    
+      to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+      }
+    
+    }
+
+
 
 .wrapper{
   width: 100%;
